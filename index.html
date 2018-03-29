@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Task</title>
+</head>
+<body>
+<div class="container-fluid bg">
+	<div class="row">
+		<div class="col-2 col-md-3 col-xl-4"></div>
+		<div class="col-8 col-md-6 col-xl-4 widget">
+			<div class="top">
+				<img class="avatar" src="david.jpg" alt="avatar">
+			</div>
+			<form class="login">
+				<div class="form-group email">
+					<label for="email" class="label">EMAIL ADRRESS</label>
+					<div class="inner-addon right-addon">
+						<span class="addon" id="addon0"><img src="cogniTriangle.bmp">
+							<hgroup class="speech-bubble" id="bubble0">
+											<span>required</span>
+							</hgroup>
+						</span>
+						<input type="text" class="form-control newFont" id="email" placeholder="Enter your email">
+					</div>
+					<span class="errorMsg">Invalid email address</span>
+				</div>
+				<div class="form-group password">
+					<label for="password" class="label">PASSWORD</label>
+					<div class="inner-addon right-addon">
+						<span class="addon" id="addon1"><img src="cogniTriangle.bmp">
+							<hgroup class="speech-bubble" id="bubble1">
+											<span>required</span>
+							</hgroup>
+						</span>
+						<input type="password" class="form-control newFont" id="password" placeholder="Enter your password">
+					</div>
+				</div>
+				<label class="rem1">REMEMBER ME
+  				<input type="checkbox">
+  				<span class="checkmark"></span>
+				</label>
+			</form>
+			<div class="footer">
+				<div class="footerContent">
+					<a href="newPassword.html" id="forgotten"class="label">Forgotten password?</a>
+					<button type="button" class="newFont" id="loginBtn" name="loginBtn">LOGIN</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="assets/app.js"></script>
+</body>
+</html>
